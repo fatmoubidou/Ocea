@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
@@ -23,144 +24,142 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="">
-    <aside class="">
-      <i class="fab fa-facebook-f"></i>
-      <i class="far fa-envelope"></i>
-      <i class="fas fa-map-marker-alt"></i>
-    </aside>
-    <aside class="">
-      <form class="" action="index.html" method="post">
-        Réserver
-        <select class="" name="">
-          <option value="">une séance d'atelier</option>
-          <option value="">un cours de badminton</option>
-          <option value="">une séance U.V.</option>
-        </select>
-        <input type="submit" name="" value="">
-      </form>
-    </aside>
+  <div id="top" class="flex jcCenter">
+    <div class="width60 flex jcBetween">
+      <aside class="width50">
+        <ul id="topLinks" class="flex">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="far fa-envelope"></i></a></li>
+          <li class="noBorder"><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+        </ul>
+      </aside>
+      <aside class="width50 flex jcEnd aiCenter">
+        <form class="" action="index.html" method="post">
+          Réserver
+          <select class="" name="">
+            <option value="">une séance d'atelier</option>
+            <option value="">un cours de badminton</option>
+            <option value="">une séance U.V.</option>
+          </select>
+          <input class="button fushia txtWhite" type="submit" name="" value="go">
+        </form>
+      </aside>
+    </div>
   </div>
-  <header>
-    <nav>
-      <ul>
-        <li><img src="img/ocea.png" alt=""></li>
-        <li>Sport</li>
-        <li>Esthétique</li>
-        <li>Centre U.V.</li>
-        <li>Nous contacter</li>
+  <header class="flexColumn aiCenter">
+    <nav class="width60 flex jcStart marginTB2">
+      <img src="img/ocea.png" alt="">
+      <ul id="menu" class="flex aiCenter">
+        <li><a href="#">Sport</a></li>
+        <li><a href="#">Esthétique</a></li>
+        <li><a href="#">Centre U.V.</a></li>
+        <li class="noBorder"><a href="#">Nous contacter</a></li>
       </ul>
     </nav>
     <div class="">
       <div class="">
-        <p>
+        <img src="img/bodybalance.jpg" alt="">
+      </div>
+      <div class="">
+        <blockquote cite="http://">
           « Nous sommes Ocea. Nous représentons fièrement la pratique du fitness sur Lille et ses alentours.
           Le sport est notre métier mais c'est avant tout notre passion.
           Nous sommes un grand club - mais à taille humaine - où chacun des membres de notre grande famille se met au service de notre lutte contre la sédentarité.
           Vous satisfaire est notre priorité de tous les jours. Nous ne vous proposons pas de cours sur écran mais plus de 100 cours collectifs
           par semaine encadrés par des éducateurs sportifs diplômés.
           Nous connaissons les prénoms de nos adhérents. Nous sommes des passionnés. Nous sommes Ocea. »
-        </p>
+        </blockquote>
       </div>
     </div>
   </header>
-  <main>
-    <section class="fushia txtWhite">
-      <h2>Ocea Sport</h2>
-      <div class="">
-        <div class="">
-          <img src="" alt="">
-          <p>Un club ouvert 7 jours sur 7</p>
+  <main class="flexColumn aiCenter">
+    <section class="width100 fushia txtWhite">
+      <div class="width70 flexColumn aiCenter">
+        <h2>Ocea Sport</h2>
+        <div class="flex jcBetween">
+          <div class="width20 flexColumn aiCenter ">
+            <b class="fs3_5">7/7</b>
+            <p class="txtCenter">Un club ouvert <b>7 jours sur 7</b></p>
+          </div>
+          <div class="width20 flexColumn aiCenter ">
+            <i class="fas fa-list-alt fa-5x"></i>
+            <p class="txtCenter">Plus de <b>100 cours collectifs</b> chaque semaine</p>
+          </div>
+          <div class="width20 flexColumn aiCenter ">
+            <i class="fas fa-bicycle fa-5x"></i>
+            <p class="txtCenter"><b>6 salles</b> dont un studio RPM avec plus de <b>70 vélos</b></p>
+          </div>
+          <div class="width20 flexColumn aiCenter ">
+            <i class="fas fa-arrows-alt-h fa-5x"></i>
+            <p class="txtCenter"><b>7000 m²</b> d'infrastructures</p>
+          </div>
         </div>
-        <div class="">
-          <img src="" alt="">
-          <p>Plus de 100 cours collectifs chaque semaine</p>
+        <div class="marginTB2">
+          <a class="buttonRadius yellow " href="#">Testez-nous !</a>
         </div>
-        <div class="">
-          <img src="" alt="">
-          <p>6 salles dont un studio RPM avec plus de 70 vélos</p>
-        </div>
-        <div class="">
-          <img src="" alt="">
-          <p>7000 m² d'infrastructures</p>
-        </div>
-      </div>
-      <div class="">
-        <a href="#">Testez-nous</a>
       </div>
     </section>
-    <div class="">
+    <div class="width60 marginTB2">
       <h2>Notre contrat</h2>
       <p>
-        Pas de sentiment d'abandon à Ocea ! Nos nombreux éducateurs sportifs,
-        tous diplômés d'état, sont à votre disposition pour atteindre vos objectifs,
-        vous conseiller et vous guider tout au long de votre entrainement.
+        <b>Pas de sentiment d'abandon à Ocea</b> ! Nos nombreux éducateurs sportifs,
+        tous diplômés d'état, sont à votre disposition <b>pour atteindre vos objectifs,
+        vous conseiller</b> et <b>vous guider</b> tout au long de votre entrainement.
       </p>
-      <div class="">
+      <div class="flex jcCenter">
         <iframe src="https://player.vimeo.com/video/272767022" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <p>
-            <a href="https://vimeo.com/272767022">Be YOURSELF - By Ocea</a>
-            from <a href="https://vimeo.com/user70639379">OCEA, Sport &amp; Bien-&ecirc;tre</a>
-            on <a href="https://vimeo.com">Vimeo</a>.
-        </p>
       </div>
     </div>
-    <section class="fushia txtWhite">
-      <article class="">
-        <header>
+    <section class="width100 fushia txtWhite flex jcCenter">
+      <div class="vignette width60 flex jcBetween marginTB2">
+        <article>
           <h3>Le planning</h3>
-        </header>
-        <img src="" alt="">
-        <p>Plus de 100 cours collectifs à votre disposition</p>
-        <a href="#">Le planning</a>
-      </article>
-      <article class="">
-        <header>
-          <h3>Les cours</h3>
-        </header>
-        <img src="" alt="">
-        <p>20 types de cours différents et ce qui se fait de meilleur au monde</p>
-        <a href="#">Les cours</a>
-      </article>
-      <article class="">
-        <header>
-          <h3>Les tarifs</h3>
-        </header>
-        <img src="" alt="">
-        <p>Nous avons forcément le meilleur tarif adapté à vos ambitions</p>
-        <a href="#">Les tarifs</a>
-      </article>
-      <article class="">
-        <header>
-          <h3>L'offre découverte</h3>
-        </header>
-        <img src="" alt="">
-        <p>A Ocea, votre première séance vous est offerte</p>
-        <a href="#">L'offre</a>
-      </article>
+          <img class="width100" src="img/planning.jpg" alt="">
+          <p>Plus de 100 cours collectifs à votre disposition</p>
+          <a href="#">Le planning</a>
+        </article>
+        <article>
+            <h3>Les cours</h3>
+          <img class="width100" src="img/cours.jpg" alt="">
+          <p>20 types de cours différents et ce qui se fait de meilleur au monde</p>
+          <a href="#">Les cours</a>
+        </article>
+        <article>
+            <h3>Les tarifs</h3>
+          <img class="width100" src="img/tarifs.jpg" alt="">
+          <p>Nous avons forcément le meilleur tarif adapté à vos ambitions</p>
+          <a href="#">Les tarifs</a>
+        </article>
+        <article>
+            <h3>L'offre découverte</h3>
+          <img class="width100" src="img/decouverte.jpg" alt="">
+          <p>A Ocea, votre première séance vous est offerte</p>
+          <a href="#">Voir l'offre</a>
+        </article>
+      </div>
     </section>
-    <div class="">
-      <section>
+    <div class="width60 flex ">
+      <section class="width50">
         <h2>Les horaires</h2>
         <ul>
           <li>Du lundi au jeudi de 9h à 21h30</li>
           <li>Le vendredi de 9h à 21h</li>
           <li>Le samedi et le dimanche de 9h à 20h</li>
         </ul>
-        <p>Tel. : 03.20.47.03.03</p>
+        <p>Tel. : <strong class="txtOrange">03.20.47.03.03</strong></p>
       </section>
-      <section>
+      <section  class="width50">
         <h2>S'y rendre</h2>
         <p>
           51 rue de la Cimaise <br>
           Villeneuve d'Ascq
         </p>
-        <a href="#">» Accès</a>
+        <a href="#">» <strong class="txtFushia">Accès</strong></a>
       </section>
     </div>
   </main>
-  <footer>
-    <div class="">
+  <footer class="width100 flexColumn aiCenter gris txtWhite ">
+    <div class="width60 flex jcBetween marginTB2">
       <section>
         <h2>Ocea</h2>
         <p>
@@ -205,8 +204,8 @@
         </ul>
       </section>
     </div>
-    <div class="">
-      <ul>
+    <div class="width60 marginTB2 borderTop">
+      <ul class="width70 flex jcCenter">
         <li>© 2018 Oxygene Studio</li> - <li><a href="#">C.G.V.</a></li> - <li><a href="#">Mentions Légales</a></li>
       </ul>
     </div>
