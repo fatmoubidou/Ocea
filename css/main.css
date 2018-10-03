@@ -251,6 +251,10 @@ h1, h2, h3,h4, h5, h6{
   padding: 2em;
 }
 
+.txtRight{
+  text-align: right;
+}
+
 /* HEADER CLASSES */
 #top{
   border-bottom: 1px solid #e5e5e5;
@@ -297,10 +301,10 @@ ul#menu li a:hover{
 
 .carrousel_txt{
   position: absolute;
-  top: 500px;
+  top: 450px;
   right: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   width:100%;
   padding:2em 0;
 }
