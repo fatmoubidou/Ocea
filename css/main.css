@@ -201,6 +201,14 @@ h1, h2, h3,h4, h5, h6{
   margin: 2em 0;
 }
 
+.marginB2{
+  margin-bottom: 2em;
+}
+
+.marginT3{
+  margin-top: 3em;
+}
+
 .txtCenter{
   text-align: center;
 }
@@ -224,6 +232,23 @@ h1, h2, h3,h4, h5, h6{
 
 .fs3_5{
   font-size: 3.5em;
+}
+
+.oblique_1{
+  transform: rotate(-1deg);
+}
+
+.oblique1{
+  transform: rotate(1deg);
+}
+
+.position{
+  position: relative;
+  bottom: -20px;
+}
+
+.padding2{
+  padding: 2em;
 }
 
 /* HEADER CLASSES */
@@ -272,12 +297,12 @@ ul#menu li a:hover{
 
 .carrousel_txt{
   position: absolute;
-  top: 520px;
+  top: 500px;
   right: 0;
   background-color: black;
   opacity: 0.7;
   width:100%;
-  padding:3em 0;
+  padding:2em 0;
 }
 
 .carrousel_txt blockquote{
@@ -291,8 +316,7 @@ ul#menu li a:hover{
 /* MAIN CLASSES */
 #ocea{
   position: absolute;
-  top: 960px;
-  right: 0;
+  top: 890px;
 }
 
 a.buttonRadius {
@@ -338,7 +362,7 @@ footer a:hover{
 
 .borderTop{
   border-top:1px solid #eee;
-  padding-top: 2em;
+  z-index: 1;
 }
 
 
