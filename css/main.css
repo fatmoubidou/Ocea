@@ -272,11 +272,12 @@ ul#menu li a:hover{
 
 .carrousel_txt{
   position: absolute;
-  top: 450px;
+  top: 520px;
   right: 0;
   background-color: black;
   opacity: 0.7;
   width:100%;
+  padding:3em 0;
 }
 
 .carrousel_txt blockquote{
@@ -288,6 +289,12 @@ ul#menu li a:hover{
 }
 
 /* MAIN CLASSES */
+#ocea{
+  position: absolute;
+  top: 960px;
+  right: 0;
+}
+
 a.buttonRadius {
   font-weight: bold;
   color:#000;
