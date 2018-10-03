@@ -247,6 +247,10 @@ h1, h2, h3,h4, h5, h6{
   bottom: -20px;
 }
 
+.overflowHidden{
+  overflow: hidden;
+}
+
 .padding2{
   padding: 2em;
 }
@@ -319,8 +323,11 @@ ul#menu li a:hover{
 
 /* MAIN CLASSES */
 #ocea{
+  position: relative;
+  bottom: 490px;
+}
+#oceaTxt{
   position: absolute;
-  top: 890px;
 }
 
 a.buttonRadius {
