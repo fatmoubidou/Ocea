@@ -96,6 +96,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Common Rules */
 body{
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
@@ -116,11 +117,11 @@ h1, h2, h3,h4, h5, h6{
   font-family: "Montserrat", sans-serif;
 }
 
-.fushia{
+.mainBgColor{
   background-color:#ed008c;
 }
 
-.gris{
+.footerBgColor{
   background-color: #4c4c4c;
 }
 
@@ -142,6 +143,7 @@ h1, h2, h3,h4, h5, h6{
 
 .flex{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .flexColumn{
@@ -153,20 +155,12 @@ h1, h2, h3,h4, h5, h6{
   justify-content: center;
 }
 
-.jcStart{
-  justify-content: flex-start;
-}
-
 .jcEnd{
   justify-content: flex-end;
 }
 
 .jcBetween{
   justify-content: space-between;
-}
-
-.jcAround{
-  justify-content: space-around;
 }
 
 .aiCenter{
@@ -209,6 +203,22 @@ h1, h2, h3,h4, h5, h6{
   margin-top: 3em;
 }
 
+.padding2{
+  padding: 2em;
+}
+
+.fs3_5{
+  font-size: 3.5em;
+}
+
+.txtJustify{
+  text-align: justify;
+}
+
+.txtRight{
+  text-align: right;
+}
+
 .txtCenter{
   text-align: center;
 }
@@ -230,10 +240,6 @@ h1, h2, h3,h4, h5, h6{
   border:none !important;
 }
 
-.fs3_5{
-  font-size: 3.5em;
-}
-
 .oblique_1{
   transform: rotate(-1deg);
 }
@@ -247,12 +253,8 @@ h1, h2, h3,h4, h5, h6{
   bottom: -20px;
 }
 
-.padding2{
-  padding: 2em;
-}
-
-.txtRight{
-  text-align: right;
+.overflowHidden{
+  overflow: hidden;
 }
 
 /* HEADER CLASSES */
@@ -309,6 +311,15 @@ ul#menu li a:hover{
   padding:2em 0;
 }
 
+#ocea{
+  position: relative;
+  bottom: 490px;
+}
+#oceaTxt{
+  position: absolute;
+  left: -10px;
+}
+
 .carrousel_txt blockquote{
   font-size: 1em;
   color: white;
@@ -318,11 +329,6 @@ ul#menu li a:hover{
 }
 
 /* MAIN CLASSES */
-#ocea{
-  position: absolute;
-  top: 890px;
-}
-
 a.buttonRadius {
   font-weight: bold;
   color:#000;
@@ -368,19 +374,6 @@ footer a:hover{
   border-top:1px solid #eee;
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
