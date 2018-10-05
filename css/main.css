@@ -259,8 +259,11 @@ h1, h2, h3,h4, h5, h6{
 
 /* HEADER CLASSES */
 #top{
+  background-color: white;
   border-bottom: 1px solid #e5e5e5;
   font-size: 0.9em;
+  position: fixed;
+  z-index: 1;
 }
 
 ul#topLinks li{
@@ -277,6 +280,10 @@ ul#topLinks li a{
 
 ul#topLinks li a:hover{
   opacity: 1;
+}
+
+header{
+  padding-top: 3em;
 }
 
 ul#menu li{
