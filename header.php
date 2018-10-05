@@ -1,4 +1,4 @@
-<div id="top" class="flex jcCenter">
+<div id="top" class="width100 flex jcCenter">
   <div class="width60 flex jcBetween">
     <aside class="width50">
       <ul id="topLinks" class="flex">
